@@ -41,7 +41,7 @@ export class AppController {
     //body为form/data中的其他非文件参数
     return {
       code: 0,
-      data: 'http://129.204.199.243/img' + file.filename,
+      data: 'http://129.204.199.243/img/' + file.filename,
       // data: 'http://127.0.0.1:3000/' + file.filename,
       status: 0,
       msg: '上传成功',
