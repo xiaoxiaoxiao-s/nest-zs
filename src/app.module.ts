@@ -11,7 +11,7 @@ import { NumModule } from './Num/num.mudule';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb://zsAdmin:*****@101.200.160.44:27777/zs?authMechanism=DEFAULT',
+      'mongodb://zsAdmin:Unicorn123@127.0.0.1:27017/zs?authMechanism=DEFAULT',
     ),
     // MongooseModule.forRoot('mongodb://127.0.0.1:27017/zs'),
     AdminModule,
